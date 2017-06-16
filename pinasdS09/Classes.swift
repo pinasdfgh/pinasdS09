@@ -26,3 +26,59 @@ class MyClass03{
 class MyClass04{
     var x:Int?
 }
+//--------------------
+class MyClass05{
+    var x:Int{
+        get{
+            return 1
+        }
+        set{
+            //newValue
+            
+        }
+    }
+}
+class MyClass06{
+    //== let x=2
+    var x:Int{
+        return 1
+    }
+    var y = 123
+    //計算型屬性
+    var z:Int{
+        return y*y
+    }
+}
+//-------------------------
+
+class MyClass07{
+    var x = 0{
+        willSet{
+            //newValue
+        }
+        didSet{
+            
+        }
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
